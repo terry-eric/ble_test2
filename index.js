@@ -153,7 +153,7 @@ function callback(event) {
       gyroscopeData.push(["gyroscope", Timestamp, x, y, z]);
       if (chartType === "gyroscopeChart") { chartData = [x, y, z] };
     }
-    log(chartData.toString());
+    // log(chartData.toString());
   }
 }
 
